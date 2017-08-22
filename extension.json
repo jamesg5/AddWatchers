@@ -1,0 +1,20 @@
+{
+	"name": "Add Watchers",
+	"version": "0.8.0",
+	"author": "jamesg5",
+	"url": "",
+	"descriptionmsg": "addwatchers-desc",
+	"type": "parserhook",
+	"ExtensionMessagesFiles": {
+		"AddWatchersMagic": "Magic.php"
+	},
+	"AutoloadClasses": {
+		"AddWatchers": "AddWatchersMain.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"AddWatchers::onParserSetup"
+		]
+	},
+	"manifest_version": 1
+}
