@@ -2,7 +2,7 @@
 	"name": "Add Watchers",
 	"version": "0.8.0",
 	"author": "jamesg5",
-	"url": "",
+	"url": "https://github.com/jamesg5/AddWatchers",
 	"descriptionmsg": "addwatchers-desc",
 	"type": "parserhook",
 	"ExtensionMessagesFiles": {
