@@ -12,7 +12,7 @@
 		"AddWatchers": "AddWatchersMain.php"
 	},
 	"config": {
-		"AddWatchersShowOutput": true
+		"AddWatchersShowOutput": false
 	},
 	"Hooks": {
 		"ParserFirstCallInit": [
