@@ -9,6 +9,7 @@ class AddWatchers {
 
 // Render the output of {{#addwatchers:}}.
    public static function render( $parser, $usernames = '', $rmvUsr = '') {
+	global $wgAddWatchersShowOutput;
    	//strings
    	$msg = '';
    	$userNames = '';
@@ -47,7 +48,9 @@ class AddWatchers {
 		}
 	}
 	//outputs the users that were successfully added or removed as watchers
-	return $msg;
+	if ($wgAddWatchersShowOutput){
+		return $msg;
+	}
    }
 }
 
