@@ -11,6 +11,9 @@
 	"AutoloadClasses": {
 		"AddWatchers": "AddWatchersMain.php"
 	},
+	"config": {
+		"AddWatchersShowOutput": true
+	},
 	"Hooks": {
 		"ParserFirstCallInit": [
 			"AddWatchers::onParserSetup"
